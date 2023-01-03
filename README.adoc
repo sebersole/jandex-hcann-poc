@@ -1,0 +1,7 @@
+= jandex-hcann-poc
+
+Proof-of-concept using Jandex "behind" HCANN.
+
+We want to migrate away from HCANN for processing annotations in Hibernate.  However, lots of code directly uses HCANN
+making a one-shot transition is difficult.  This projct attempts to prove how well it works to have HCANN use Jandex for
+annotation processing and a first step in a staggered transition.
